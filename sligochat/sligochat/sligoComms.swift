@@ -6,13 +6,14 @@
 //
 
 import Foundation
+import SQLite3
 
 struct sligoAccounts {
     var id: Int64;
     var phoneNumber: String;
     
     /*
-     
+     * Returns true if the user's ID indicates if it is a premium account
      */
     func isUserPremium(id: Int64) -> DarwinBoolean {
         if (id.leadingZeroBitCount == 0) {
@@ -29,3 +30,18 @@ struct sligoAccounts {
     }
     
 }
+
+struct sligoMessaging {
+    var id: Int64;
+    
+    func sendMessage() {
+        
+    }
+    
+    func getRecentMessages() -> [String] {
+        
+    }
+    }
+    
+}
+

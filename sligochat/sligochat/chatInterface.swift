@@ -3,6 +3,7 @@
 //  sligochat
 //
 //  Created by Mac Lawson on 5/19/23.
+//  GPLv3
 //
 
 import SwiftUI
@@ -15,7 +16,10 @@ struct chatInterface: View {
                 .fontWeight(.heavy)
                 .multilineTextAlignment(.leading)
             Spacer()
-            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            TextField("Message", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            Button("Send Message") {
+                test()
+            }
             Spacer()
 
         }

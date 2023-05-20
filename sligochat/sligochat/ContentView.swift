@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedEncryptionLevel = 1
     var body: some View {
         VStack {
             Text("Sligo Chat")
@@ -21,16 +22,21 @@ struct ContentView: View {
                         Button("Contact 1") {
                             test()
                         }
+                        .foregroundColor(.blue)
+
                         Button("Contact 2") {
                             test()
                         }
-                        Button("Contact 3") {
+                        .foregroundColor(.blue)
+
+                        Button("Emergency Contact") {
                             test()
                         }
+                        .foregroundColor(.red)
                 }
                 Section(header: Text("Encryption")
                     .font(.subheadline)) {
-                        Picker(selection: .constant(1), label: Text("Encryption Level")) {
+                        Picker(selection: $selectedEncryptionLevel, label: Text("Encryption Level")) {
                             Text("Low (Hex)").tag(1)
                             Text("High (AES)").tag(2)
                         }
