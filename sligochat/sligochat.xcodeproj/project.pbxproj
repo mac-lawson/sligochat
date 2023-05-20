@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5497DA4B2A17AD28000EC1E4 /* sligochatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA4A2A17AD28000EC1E4 /* sligochatApp.swift */; };
+		5497DA4D2A17AD28000EC1E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA4C2A17AD28000EC1E4 /* ContentView.swift */; };
+		5497DA4F2A17AD2A000EC1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5497DA4E2A17AD2A000EC1E4 /* Assets.xcassets */; };
+		5497DA522A17AD2A000EC1E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5497DA512A17AD2A000EC1E4 /* Preview Assets.xcassets */; };
+		5497DA5C2A17AD2A000EC1E4 /* sligochatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA5B2A17AD2A000EC1E4 /* sligochatTests.swift */; };
+		5497DA662A17AD2A000EC1E4 /* sligochatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA652A17AD2A000EC1E4 /* sligochatUITests.swift */; };
+		5497DA682A17AD2A000EC1E4 /* sligochatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA672A17AD2A000EC1E4 /* sligochatUITestsLaunchTests.swift */; };
+		5497DA752A17BEFA000EC1E4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5497DA742A17BEFA000EC1E4 /* Launch Screen.storyboard */; };
+		5497DA772A17C0DE000EC1E4 /* chatInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA762A17C0DE000EC1E4 /* chatInterface.swift */; };
+		5497DA792A17C219000EC1E4 /* sligoComms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA782A17C219000EC1E4 /* sligoComms.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5497DA582A17AD2A000EC1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5497DA3F2A17AD28000EC1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5497DA462A17AD28000EC1E4;
+			remoteInfo = sligochat;
+		};
+		5497DA622A17AD2A000EC1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5497DA3F2A17AD28000EC1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5497DA462A17AD28000EC1E4;
+			remoteInfo = sligochat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5497DA472A17AD28000EC1E4 /* sligochat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sligochat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5497DA4A2A17AD28000EC1E4 /* sligochatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sligochatApp.swift; sourceTree = "<group>"; };
+		5497DA4C2A17AD28000EC1E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5497DA4E2A17AD2A000EC1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5497DA512A17AD2A000EC1E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5497DA572A17AD2A000EC1E4 /* sligochatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sligochatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5497DA5B2A17AD2A000EC1E4 /* sligochatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sligochatTests.swift; sourceTree = "<group>"; };
+		5497DA612A17AD2A000EC1E4 /* sligochatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sligochatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5497DA652A17AD2A000EC1E4 /* sligochatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sligochatUITests.swift; sourceTree = "<group>"; };
+		5497DA672A17AD2A000EC1E4 /* sligochatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sligochatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5497DA742A17BEFA000EC1E4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5497DA762A17C0DE000EC1E4 /* chatInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatInterface.swift; sourceTree = "<group>"; };
+		5497DA782A17C219000EC1E4 /* sligoComms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sligoComms.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5497DA442A17AD28000EC1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5497DA542A17AD2A000EC1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5497DA5E2A17AD2A000EC1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5497DA3E2A17AD28000EC1E4 = {
+			isa = PBXGroup;
+			children = (
+				5497DA492A17AD28000EC1E4 /* sligochat */,
+				5497DA5A2A17AD2A000EC1E4 /* sligochatTests */,
+				5497DA642A17AD2A000EC1E4 /* sligochatUITests */,
+				5497DA482A17AD28000EC1E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5497DA482A17AD28000EC1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5497DA472A17AD28000EC1E4 /* sligochat.app */,
+				5497DA572A17AD2A000EC1E4 /* sligochatTests.xctest */,
+				5497DA612A17AD2A000EC1E4 /* sligochatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5497DA492A17AD28000EC1E4 /* sligochat */ = {
+			isa = PBXGroup;
+			children = (
+				5497DA4A2A17AD28000EC1E4 /* sligochatApp.swift */,
+				5497DA782A17C219000EC1E4 /* sligoComms.swift */,
+				5497DA4C2A17AD28000EC1E4 /* ContentView.swift */,
+				5497DA762A17C0DE000EC1E4 /* chatInterface.swift */,
+				5497DA742A17BEFA000EC1E4 /* Launch Screen.storyboard */,
+				5497DA4E2A17AD2A000EC1E4 /* Assets.xcassets */,
+				5497DA502A17AD2A000EC1E4 /* Preview Content */,
+			);
+			path = sligochat;
+			sourceTree = "<group>";
+		};
+		5497DA502A17AD2A000EC1E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5497DA512A17AD2A000EC1E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5497DA5A2A17AD2A000EC1E4 /* sligochatTests */ = {
+			isa = PBXGroup;
+			children = (
+				5497DA5B2A17AD2A000EC1E4 /* sligochatTests.swift */,
+			);
+			path = sligochatTests;
+			sourceTree = "<group>";
+		};
+		5497DA642A17AD2A000EC1E4 /* sligochatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5497DA652A17AD2A000EC1E4 /* sligochatUITests.swift */,
+				5497DA672A17AD2A000EC1E4 /* sligochatUITestsLaunchTests.swift */,
+			);
+			path = sligochatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5497DA462A17AD28000EC1E4 /* sligochat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5497DA6B2A17AD2A000EC1E4 /* Build configuration list for PBXNativeTarget "sligochat" */;
+			buildPhases = (
+				5497DA432A17AD28000EC1E4 /* Sources */,
+				5497DA442A17AD28000EC1E4 /* Frameworks */,
+				5497DA452A17AD28000EC1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sligochat;
+			productName = sligochat;
+			productReference = 5497DA472A17AD28000EC1E4 /* sligochat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5497DA562A17AD2A000EC1E4 /* sligochatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5497DA6E2A17AD2A000EC1E4 /* Build configuration list for PBXNativeTarget "sligochatTests" */;
+			buildPhases = (
+				5497DA532A17AD2A000EC1E4 /* Sources */,
+				5497DA542A17AD2A000EC1E4 /* Frameworks */,
+				5497DA552A17AD2A000EC1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5497DA592A17AD2A000EC1E4 /* PBXTargetDependency */,
+			);
+			name = sligochatTests;
+			productName = sligochatTests;
+			productReference = 5497DA572A17AD2A000EC1E4 /* sligochatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5497DA602A17AD2A000EC1E4 /* sligochatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5497DA712A17AD2A000EC1E4 /* Build configuration list for PBXNativeTarget "sligochatUITests" */;
+			buildPhases = (
+				5497DA5D2A17AD2A000EC1E4 /* Sources */,
+				5497DA5E2A17AD2A000EC1E4 /* Frameworks */,
+				5497DA5F2A17AD2A000EC1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5497DA632A17AD2A000EC1E4 /* PBXTargetDependency */,
+			);
+			name = sligochatUITests;
+			productName = sligochatUITests;
+			productReference = 5497DA612A17AD2A000EC1E4 /* sligochatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5497DA3F2A17AD28000EC1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5497DA462A17AD28000EC1E4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5497DA562A17AD2A000EC1E4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5497DA462A17AD28000EC1E4;
+					};
+					5497DA602A17AD2A000EC1E4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5497DA462A17AD28000EC1E4;
+					};
+				};
+			};
+			buildConfigurationList = 5497DA422A17AD28000EC1E4 /* Build configuration list for PBXProject "sligochat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5497DA3E2A17AD28000EC1E4;
+			productRefGroup = 5497DA482A17AD28000EC1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5497DA462A17AD28000EC1E4 /* sligochat */,
+				5497DA562A17AD2A000EC1E4 /* sligochatTests */,
+				5497DA602A17AD2A000EC1E4 /* sligochatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5497DA452A17AD28000EC1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5497DA752A17BEFA000EC1E4 /* Launch Screen.storyboard in Resources */,
+				5497DA522A17AD2A000EC1E4 /* Preview Assets.xcassets in Resources */,
+				5497DA4F2A17AD2A000EC1E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5497DA552A17AD2A000EC1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5497DA5F2A17AD2A000EC1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5497DA432A17AD28000EC1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5497DA792A17C219000EC1E4 /* sligoComms.swift in Sources */,
+				5497DA4D2A17AD28000EC1E4 /* ContentView.swift in Sources */,
+				5497DA4B2A17AD28000EC1E4 /* sligochatApp.swift in Sources */,
+				5497DA772A17C0DE000EC1E4 /* chatInterface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5497DA532A17AD2A000EC1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5497DA5C2A17AD2A000EC1E4 /* sligochatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5497DA5D2A17AD2A000EC1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5497DA662A17AD2A000EC1E4 /* sligochatUITests.swift in Sources */,
+				5497DA682A17AD2A000EC1E4 /* sligochatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5497DA592A17AD2A000EC1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5497DA462A17AD28000EC1E4 /* sligochat */;
+			targetProxy = 5497DA582A17AD2A000EC1E4 /* PBXContainerItemProxy */;
+		};
+		5497DA632A17AD2A000EC1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5497DA462A17AD28000EC1E4 /* sligochat */;
+			targetProxy = 5497DA622A17AD2A000EC1E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5497DA692A17AD2A000EC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5497DA6A2A17AD2A000EC1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5497DA6C2A17AD2A000EC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sligochat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sligo.sligochat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5497DA6D2A17AD2A000EC1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sligochat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sligo.sligochat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5497DA6F2A17AD2A000EC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sligo.sligochatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sligochat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sligochat";
+			};
+			name = Debug;
+		};
+		5497DA702A17AD2A000EC1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sligo.sligochatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sligochat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sligochat";
+			};
+			name = Release;
+		};
+		5497DA722A17AD2A000EC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sligo.sligochatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sligochat;
+			};
+			name = Debug;
+		};
+		5497DA732A17AD2A000EC1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sligo.sligochatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sligochat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5497DA422A17AD28000EC1E4 /* Build configuration list for PBXProject "sligochat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5497DA692A17AD2A000EC1E4 /* Debug */,
+				5497DA6A2A17AD2A000EC1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5497DA6B2A17AD2A000EC1E4 /* Build configuration list for PBXNativeTarget "sligochat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5497DA6C2A17AD2A000EC1E4 /* Debug */,
+				5497DA6D2A17AD2A000EC1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5497DA6E2A17AD2A000EC1E4 /* Build configuration list for PBXNativeTarget "sligochatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5497DA6F2A17AD2A000EC1E4 /* Debug */,
+				5497DA702A17AD2A000EC1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5497DA712A17AD2A000EC1E4 /* Build configuration list for PBXNativeTarget "sligochatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5497DA722A17AD2A000EC1E4 /* Debug */,
+				5497DA732A17AD2A000EC1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5497DA3F2A17AD28000EC1E4 /* Project object */;
+}
