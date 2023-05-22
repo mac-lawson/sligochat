@@ -15,7 +15,13 @@ struct sligoAccounts {
     /*
      * Returns true if the user's ID indicates if it is a premium account
      */
-    func isUserPremium(id: Int64) -> DarwinBoolean {
+    
+    func doesUserExist(id: Int32) -> DarwinBoolean {
+        
+        return true;
+    }
+    
+    func isUserPremium(id: Int32) -> DarwinBoolean {
         if (id.leadingZeroBitCount == 0) {
             return true;
         }
@@ -39,9 +45,9 @@ struct sligoMessaging {
     }
     
     func getRecentMessages() -> [String] {
-        
+        return ["null"];
     }
-    }
-    
 }
+    
+
 

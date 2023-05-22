@@ -17,6 +17,7 @@
 		5497DA752A17BEFA000EC1E4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5497DA742A17BEFA000EC1E4 /* Launch Screen.storyboard */; };
 		5497DA772A17C0DE000EC1E4 /* chatInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA762A17C0DE000EC1E4 /* chatInterface.swift */; };
 		5497DA792A17C219000EC1E4 /* sligoComms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA782A17C219000EC1E4 /* sligoComms.swift */; };
+		5497DA7B2A1B0843000EC1E4 /* voiceDialInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497DA7A2A1B0843000EC1E4 /* voiceDialInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		5497DA742A17BEFA000EC1E4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5497DA762A17C0DE000EC1E4 /* chatInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatInterface.swift; sourceTree = "<group>"; };
 		5497DA782A17C219000EC1E4 /* sligoComms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sligoComms.swift; sourceTree = "<group>"; };
+		5497DA7A2A1B0843000EC1E4 /* voiceDialInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voiceDialInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				5497DA782A17C219000EC1E4 /* sligoComms.swift */,
 				5497DA4C2A17AD28000EC1E4 /* ContentView.swift */,
 				5497DA762A17C0DE000EC1E4 /* chatInterface.swift */,
+				5497DA7A2A1B0843000EC1E4 /* voiceDialInterface.swift */,
 				5497DA742A17BEFA000EC1E4 /* Launch Screen.storyboard */,
 				5497DA4E2A17AD2A000EC1E4 /* Assets.xcassets */,
 				5497DA502A17AD2A000EC1E4 /* Preview Content */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5497DA7B2A1B0843000EC1E4 /* voiceDialInterface.swift in Sources */,
 				5497DA792A17C219000EC1E4 /* sligoComms.swift in Sources */,
 				5497DA4D2A17AD28000EC1E4 /* ContentView.swift in Sources */,
 				5497DA4B2A17AD28000EC1E4 /* sligochatApp.swift in Sources */,
